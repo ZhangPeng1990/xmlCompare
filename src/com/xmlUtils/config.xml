@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+	<valuePath>//defu:ECO/defu:EcoDataItem[###orderNum###]/defu:Sequence</valuePath>
+	
+	<resource>
+		<key>//defu:ECO/defu:EcoDataItem[###orderNum###]/defu:Sequence</key>
+		<values>
+			<value>//defu:Improvement[defu:Sequence=###sequence###]/defu:Sequence</value>
+		</values>
+	</resource>
+	
+	<resource>
+		<key>//defu:ECO/defu:EcoDataItem[###orderNum###]/defu:measureType</key>
+		<values>
+			<value>//defu:Improvement[defu:Sequence=###sequence###]/defu:Ofgem-Measure-Name</value>
+		</values>
+	</resource>
+	
+	<resource>
+		<key>//defu:ECO/defu:EcoDataItem[###orderNum###]/defu:lifetimeOfMeasure</key>
+		<values>
+			<value>//defu:Improvement[defu:Sequence=###sequence###]/defu:Lifetime</value>
+		</values>
+	</resource>
+	
+	<resource>
+		<key>//defu:ECO/defu:EcoDataItem[###orderNum###]/defu:heatingFuel</key>
+		<values>
+			<value>//defu:Improvement[defu:Sequence=###sequence###]/defu:Heating-Measure/defu:Fuel</value>
+		</values>
+	</resource>
+	
+	<resource>
+		<key>//defu:ECO/defu:EcoDataItem[###orderNum###]/defu:boilerIndexNo</key>
+		<values>
+			<value>//defu:Improvement[defu:Sequence=###sequence###]/defu:Heating-Measure/defu:Heating-System-PCDF-Index</value>
+		</values>
+	</resource>
+	
+	<resource>
+		<key>//defu:ECO/defu:EcoDataItem[###orderNum###]/defu:efficiencySource</key>
+		<values>
+			<value>//defu:Improvement[defu:Sequence=###sequence###]/defu:Heating-Measure/defu:Main-Heating-Category</value>
+		</values>
+	</resource>
+	
+	<resource>
+		<key>//defu:ECO/defu:EcoDataItem[###orderNum###]/defu:roofInputU</key>
+		<values>
+			<value>//defu:Improvement[defu:Sequence=###sequence###]/defu:Park-Home-Insulation/defu:Roof-U-Value</value>
+		</values>
+	</resource>
+	
+	<resource>
+		<key>//defu:ECO/defu:EcoDataItem[###orderNum###]/defu:wallsInputU</key>
+		<values>
+			<value>//defu:Improvement[defu:Sequence=###sequence###]/defu:Park-Home-Insulation/defu:Wall-U-Value</value>
+		</values>
+	</resource>
+	
+	<resource>
+		<key>//defu:ECO/defu:EcoDataItem[###orderNum###]/defu:percentageMain</key>
+		<values>
+			<value>//defu:Improvement[defu:Sequence=###sequence###]/defu:Insulation-Measure/defu:Percentage-Main</value>
+		</values>
+	</resource>
+	
+	<resource>
+		<key>//defu:ECO/defu:EcoDataItem[###orderNum###]/defu:gValue</key>
+		<values>
+			<value>//defu:Improvement[defu:Sequence=###sequence###]/defu:Windows-Doors-Measure/defu:Window-g-Value</value>
+		</values>
+	</resource>
+	
+	<resource>
+		<key>//defu:ECO/defu:EcoDataItem[###orderNum###]/defu:uValue</key>
+		<values>
+			<value>//defu:Improvement[defu:Sequence=###sequence###]/defu:Windows-Doors-Measure/defu:Window-U-Value</value>
+			<value>//defu:Improvement[defu:Sequence=###sequence###]/defu:Insulation-Measure/defu:U-Value</value>
+		</values>
+	</resource>
+	
+	<resource>
+		<key>//defu:ECO/defu:EcoDataItem[###orderNum###]/defu:draughtProofed</key>
+		<values>
+			<value>//defu:Improvement[defu:Sequence=###sequence###]/defu:Windows-Doors-Measure/defu:Draught-Proofing</value>
+		</values>
+	</resource>
+	
+</config>

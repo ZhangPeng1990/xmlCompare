@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--ECO-1a-->
+<ECO-Assessment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ECO ECO-Report.xsd" xmlns="ECO">
+  <Schema-Version>ECO-1.0</Schema-Version>
+  <Report-Date>2013-09-19</Report-Date>
+  <Property>
+    <EPC-Address>
+      <Address-Line-1>14 Willowbrae Road</Address-Line-1>
+      <Address-Line-2>Clifton</Address-Line-2>
+      <Post-Town>Darlington</Post-Town>
+      <Postcode>DL10 4QE</Postcode>
+    </EPC-Address>
+    <Ofgem-Address>
+      <Building-Number>14</Building-Number>
+      <Street-Name>Willowbrae Road</Street-Name>
+      <Town>Darlington</Town>
+      <Postcode>DL10 4QE</Postcode>
+    </Ofgem-Address>
+    <Property-Type>1</Property-Type>
+    <Built-Form>2</Built-Form>
+    <Tenure>2</Tenure>
+    <Total-Floor-Area>71</Total-Floor-Area>
+    <UPRN-10>1234567890</UPRN-10>
+    <UPRN-12>N/A</UPRN-12>
+    <Country-Code>EAW</Country-Code>
+    <Region-Code>7</Region-Code>
+  </Property>
+  <Pre-Installation-EPC-RRN>0182-2072-9423-9609-8555</Pre-Installation-EPC-RRN>
+  <Software>
+    <Calculation-Software-Name>ABC ECO Software</Calculation-Software-Name>
+    <Calculation-Software-Version>1.46.23</Calculation-Software-Version>
+    <SAP-Version>9.91</SAP-Version>
+    <PCDF-Revision-Number>346</PCDF-Revision-Number>
+    <PCDF-Fuel-Prices>340</PCDF-Fuel-Prices>
+  </Software>
+  <Report-Author>Mr Energy Supplier</Report-Author>
+  <Improvement>
+    <Sequence>1</Sequence>
+    <Install-Date>2013-07-02</Install-Date>
+    <Improvement-Type>W</Improvement-Type>
+    <Ofgem-Measure-Name>UFI</Ofgem-Measure-Name>
+    <Measure-Reference>V253</Measure-Reference>
+    <Insulation-Measure>
+      <Percentage-Main>100</Percentage-Main>
+      <Percentage-Overall>100</Percentage-Overall>
+      <U-Value>0.5</U-Value>
+    </Insulation-Measure>
+    <Lifetime>42</Lifetime>
+    <Annual-Cost-Saving>33.31</Annual-Cost-Saving>
+    <Lifetime-Cost-Saving>1399</Lifetime-Cost-Saving>
+    <In-Use-Factor>15</In-Use-Factor>
+    <Annual-CO2-Saving>0.159</Annual-CO2-Saving>
+    <Lifetime-CO2-Saving>5.676</Lifetime-CO2-Saving>
+  </Improvement>
+  <Improvement>
+    <Sequence>2</Sequence>
+    <Install-Date>2013-07-08</Install-Date>
+    <Improvement-Type>B</Improvement-Type>
+    <Ofgem-Measure-Name>Standard_CWI</Ofgem-Measure-Name>
+    <Measure-Reference>E436</Measure-Reference>
+    <Insulation-Measure>
+      <Alternative-Wall-Main>false</Alternative-Wall-Main>
+      <Percentage-Main>100</Percentage-Main>
+      <Percentage-Overall>100</Percentage-Overall>
+      <Percentage-Of-Total-Exterior-Walls>100</Percentage-Of-Total-Exterior-Walls>
+      <U-Value>0.55</U-Value>
+    </Insulation-Measure>
+    <Lifetime>42</Lifetime>
+    <Annual-Cost-Saving>182.19</Annual-Cost-Saving>
+    <Lifetime-Cost-Saving>7652</Lifetime-Cost-Saving>
+    <In-Use-Factor>35</In-Use-Factor>
+    <Annual-CO2-Saving>0.87</Annual-CO2-Saving>
+    <Lifetime-CO2-Saving>23.751</Lifetime-CO2-Saving>
+  </Improvement>
+  <Improvement>
+    <Sequence>3</Sequence>
+    <Install-Date>2013-07-12</Install-Date>
+    <Improvement-Type>A1</Improvement-Type>
+    <Ofgem-Measure-Name>LI_ceiling_level_topup</Ofgem-Measure-Name>
+    <Measure-Reference>M63</Measure-Reference>
+    <Insulation-Measure>
+      <Percentage-Main>100</Percentage-Main>
+      <Percentage-Overall>100</Percentage-Overall>
+      <Loft-Insulation-Thickness>250mm</Loft-Insulation-Thickness>
+    </Insulation-Measure>
+    <Lifetime>42</Lifetime>
+    <Annual-Cost-Saving>32.99</Annual-Cost-Saving>
+    <Lifetime-Cost-Saving>1386</Lifetime-Cost-Saving>
+    <In-Use-Factor>35</In-Use-Factor>
+    <Annual-CO2-Saving>0.157</Annual-CO2-Saving>
+    <Lifetime-CO2-Saving>4.286</Lifetime-CO2-Saving>
+  </Improvement>
+  <Total-Percentage-Of-Total-Exterior-Walls>100</Total-Percentage-Of-Total-Exterior-Walls>
+</ECO-Assessment>

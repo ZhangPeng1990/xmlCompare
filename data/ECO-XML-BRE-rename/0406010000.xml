@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--4f-->
+<ECO-Assessment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ECO ECO-Report.xsd" xmlns="ECO">
+  <Schema-Version>ECO-1.0</Schema-Version>
+  <Report-Date>2013-09-19</Report-Date>
+  <Property>
+    <EPC-Address>
+      <Address-Line-1>6 Fintry Street</Address-Line-1>
+      <Post-Town>Bath</Post-Town>
+      <Postcode>BA10 0BE</Postcode>
+    </EPC-Address>
+    <Ofgem-Address>
+      <Building-Number>6</Building-Number>
+      <Street-Name>Fintry Street</Street-Name>
+      <Town>Bath</Town>
+      <Postcode>BA10 0BE</Postcode>
+    </Ofgem-Address>
+    <Property-Type>1</Property-Type>
+    <Built-Form>2</Built-Form>
+    <Tenure>1</Tenure>
+    <Total-Floor-Area>238</Total-Floor-Area>
+    <UPRN-10>1234567559</UPRN-10>
+    <UPRN-12>N/A</UPRN-12>
+    <Country-Code>EAW</Country-Code>
+    <Region-Code>12</Region-Code>
+  </Property>
+  <Pre-Installation-EPC-RRN>9319-5622-5430-2722-5906</Pre-Installation-EPC-RRN>
+  <Software>
+    <Calculation-Software-Name>ABC ECO Software</Calculation-Software-Name>
+    <Calculation-Software-Version>1.46.23</Calculation-Software-Version>
+    <SAP-Version>9.91</SAP-Version>
+    <PCDF-Revision-Number>346</PCDF-Revision-Number>
+    <PCDF-Fuel-Prices>325</PCDF-Fuel-Prices>
+  </Software>
+  <Report-Author>Mr Energy Supplier</Report-Author>
+  <Improvement>
+    <Sequence>1</Sequence>
+    <Install-Date>2012-12-26</Install-Date>
+    <Improvement-Type>B</Improvement-Type>
+    <Ofgem-Measure-Name>Standard_CWI</Ofgem-Measure-Name>
+    <Measure-Reference>F805</Measure-Reference>
+    <Insulation-Measure>
+      <Alternative-Wall-Main>false</Alternative-Wall-Main>
+      <Alternative-Wall-Extension-1>false</Alternative-Wall-Extension-1>
+      <Alternative-Wall-Extension-2>false</Alternative-Wall-Extension-2>
+      <Percentage-Main>50</Percentage-Main>
+      <Percentage-Extension-1>50</Percentage-Extension-1>
+      <Percentage-Extension-2>100</Percentage-Extension-2>
+      <Percentage-Overall>70</Percentage-Overall>
+      <Percentage-Of-Total-Exterior-Walls>70</Percentage-Of-Total-Exterior-Walls>
+      <RdSAP-Cavity-Fill/>
+    </Insulation-Measure>
+    <Lifetime>42</Lifetime>
+    <Annual-Cost-Saving>201.07</Annual-Cost-Saving>
+    <Lifetime-Cost-Saving>8445</Lifetime-Cost-Saving>
+    <In-Use-Factor>35</In-Use-Factor>
+    <Annual-CO2-Saving>1.523</Annual-CO2-Saving>
+    <Lifetime-CO2-Saving>41.578</Lifetime-CO2-Saving>
+  </Improvement>
+  <Improvement>
+    <Sequence>2</Sequence>
+    <Install-Date>2012-12-28</Install-Date>
+    <Improvement-Type>C</Improvement-Type>
+    <Ofgem-Measure-Name>HWCI</Ofgem-Measure-Name>
+    <Measure-Reference>T152</Measure-Reference>
+    <Heating-Measure/>
+    <Lifetime>10</Lifetime>
+    <In-Use-Factor>15</In-Use-Factor>
+    <Annual-CO2-Saving>0.305</Annual-CO2-Saving>
+    <Lifetime-CO2-Saving>2.593</Lifetime-CO2-Saving>
+  </Improvement>
+  <Total-Percentage-Of-Total-Exterior-Walls>70</Total-Percentage-Of-Total-Exterior-Walls>
+</ECO-Assessment>

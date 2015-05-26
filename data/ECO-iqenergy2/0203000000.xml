@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ECO-2c_M-H-C-P_EPC.xml -->
+<ECO-Assessment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ECO ECO-Report.xsd" xmlns="ECO">
+	<Schema-Version>ECO-1.0</Schema-Version>
+	<Report-Date>2013-10-01</Report-Date>
+	<Property>
+		<EPC-Address>
+			<Address-Line-1>20 Willow Crescent</Address-Line-1>
+			<Address-Line-2>Clifton</Address-Line-2>
+			<Post-Town>Blackburn</Post-Town>
+			<Postcode>BB10 4HL</Postcode>
+		</EPC-Address>
+		<Ofgem-Address>
+			<Building-Number>20</Building-Number>
+			<Street-Name>Willow Crescent</Street-Name>
+			<Town>Blackburn</Town>
+			<Postcode>BB10 4HL</Postcode>
+		</Ofgem-Address>
+		<Property-Type>0</Property-Type>
+		<Built-Form>1</Built-Form>
+		<Tenure>1</Tenure>
+		<Total-Floor-Area>216</Total-Floor-Area>
+		<UPRN-10>0203000000</UPRN-10>
+		<UPRN-12>N/A</UPRN-12>
+		<Country-Code>EAW</Country-Code>
+		<Region-Code>19</Region-Code>
+	</Property>
+	<Pre-Installation-EPC-RRN>2248-1945-9232-6622-6920</Pre-Installation-EPC-RRN>
+	<Software>
+		<Calculation-Software-Name>iQ-Energy</Calculation-Software-Name>
+		<Calculation-Software-Version>v2.1.0</Calculation-Software-Version>
+		<SAP-Version>9.91</SAP-Version>
+		<PCDF-Revision-Number>346</PCDF-Revision-Number>
+		<PCDF-Fuel-Prices>340</PCDF-Fuel-Prices>
+	</Software>
+	<Report-Author>TEST100001</Report-Author>
+	<Improvement>
+		<Sequence>1</Sequence>
+		<Install-Date>2013-07-29</Install-Date>
+		<Improvement-Type>M</Improvement-Type>
+		<Ofgem-Measure-Name>Warm_air_units</Ofgem-Measure-Name>
+		<Measure-Reference></Measure-Reference>
+		<Heating-Measure>
+			<Main-Heating-Category>9</Main-Heating-Category>
+			<Fuel>26</Fuel>
+			<Heating-System-Code>502</Heating-System-Code>
+		</Heating-Measure>
+		<Lifetime>20</Lifetime>
+		<Annual-Cost-Saving>224.36</Annual-Cost-Saving>
+		<Lifetime-Cost-Saving>4487</Lifetime-Cost-Saving>
+	</Improvement>
+	<Improvement>
+		<Sequence>2</Sequence>
+		<Install-Date>2013-07-29</Install-Date>
+		<Improvement-Type>P</Improvement-Type>
+		<Ofgem-Measure-Name>WG</Ofgem-Measure-Name>
+		<Measure-Reference></Measure-Reference>
+		<Windows-Doors-Measure>
+			<Window-Percentage>100</Window-Percentage>
+			<Window-U-Value>1.4</Window-U-Value>
+			<Window-g-Value>0.61</Window-g-Value>
+		</Windows-Doors-Measure>
+		<Lifetime>20</Lifetime>
+		<Annual-Cost-Saving>5.17</Annual-Cost-Saving>
+		<Lifetime-Cost-Saving>103</Lifetime-Cost-Saving>
+		<In-Use-Factor>15</In-Use-Factor>
+		<Annual-CO2-Saving>0.028</Annual-CO2-Saving>
+		<Lifetime-CO2-Saving>0.476</Lifetime-CO2-Saving>
+	</Improvement>
+	<Total-Percentage-Of-Total-Exterior-Walls>0</Total-Percentage-Of-Total-Exterior-Walls>
+</ECO-Assessment>

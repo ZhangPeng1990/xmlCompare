@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--ECO-2e-->
+<ECO-Assessment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ECO ECO-Report.xsd" xmlns="ECO">
+  <Schema-Version>ECO-1.0</Schema-Version>
+  <Report-Date>2013-09-19</Report-Date>
+  <Property>
+    <EPC-Address>
+      <Address-Line-1>5 Kingsway</Address-Line-1>
+      <Post-Town>Falkirk</Post-Town>
+      <Postcode>FK12 5EB</Postcode>
+    </EPC-Address>
+    <Ofgem-Address>
+      <Building-Number>5</Building-Number>
+      <Street-Name>Kingsway</Street-Name>
+      <Town>Falkirk</Town>
+      <Postcode>FK12 5EB</Postcode>
+    </Ofgem-Address>
+    <Property-Type>0</Property-Type>
+    <Built-Form>2</Built-Form>
+    <Tenure>1</Tenure>
+    <Total-Floor-Area>147</Total-Floor-Area>
+    <UPRN-10>1234567607</UPRN-10>
+    <UPRN-12>N/A</UPRN-12>
+    <Country-Code>SCT</Country-Code>
+    <Region-Code>20</Region-Code>
+  </Property>
+  <Pre-Installation-EPC-RRN>0427-1045-0233-6772-6920</Pre-Installation-EPC-RRN>
+  <Software>
+    <Calculation-Software-Name>ABC ECO Software</Calculation-Software-Name>
+    <Calculation-Software-Version>1.46.23</Calculation-Software-Version>
+    <SAP-Version>9.91</SAP-Version>
+    <PCDF-Revision-Number>346</PCDF-Revision-Number>
+    <PCDF-Fuel-Prices>340</PCDF-Fuel-Prices>
+  </Software>
+  <Report-Author>Mr Energy Supplier</Report-Author>
+  <Improvement>
+    <Sequence>1</Sequence>
+    <Install-Date>2013-07-07</Install-Date>
+    <Improvement-Type>T</Improvement-Type>
+    <Ofgem-Measure-Name>Non_QB_installation</Ofgem-Measure-Name>
+    <Measure-Reference>U354</Measure-Reference>
+    <Heating-Measure>
+      <Main-Heating-Category>2</Main-Heating-Category>
+      <Fuel>26</Fuel>
+      <Heating-System-PCDF-Index>8479</Heating-System-PCDF-Index>
+      <Improved-Heating-Heats-All-Rooms>false</Improved-Heating-Heats-All-Rooms>
+      <Improved-Heating-Provides-Hot-Water>true</Improved-Heating-Provides-Hot-Water>
+    </Heating-Measure>
+    <Lifetime>12</Lifetime>
+    <Annual-Cost-Saving>618.35</Annual-Cost-Saving>
+    <Lifetime-Cost-Saving>7420</Lifetime-Cost-Saving>
+  </Improvement>
+  <Improvement>
+    <Sequence>2</Sequence>
+    <Install-Date>2013-07-07</Install-Date>
+    <Improvement-Type>T2</Improvement-Type>
+    <Ofgem-Measure-Name>Heat_recovery_flue_gas</Ofgem-Measure-Name>
+    <Measure-Reference>Q228</Measure-Reference>
+    <Heating-Measure>
+      <FGHRS-PCDF-Index>60029</FGHRS-PCDF-Index>
+    </Heating-Measure>
+    <Lifetime>12</Lifetime>
+    <Annual-Cost-Saving>21.4</Annual-Cost-Saving>
+    <Lifetime-Cost-Saving>257</Lifetime-Cost-Saving>
+  </Improvement>
+  <Improvement>
+    <Sequence>3</Sequence>
+    <Install-Date>2013-07-07</Install-Date>
+    <Improvement-Type>C</Improvement-Type>
+    <Ofgem-Measure-Name>HWCI</Ofgem-Measure-Name>
+    <Measure-Reference>D868</Measure-Reference>
+    <Heating-Measure/>
+    <Lifetime>10</Lifetime>
+    <In-Use-Factor>15</In-Use-Factor>
+    <Annual-CO2-Saving>0.286</Annual-CO2-Saving>
+    <Lifetime-CO2-Saving>2.431</Lifetime-CO2-Saving>
+  </Improvement>
+  <Improvement>
+    <Sequence>4</Sequence>
+    <Install-Date>2013-07-07</Install-Date>
+    <Improvement-Type>G</Improvement-Type>
+    <Ofgem-Measure-Name>Heating_controls</Ofgem-Measure-Name>
+    <Measure-Reference>N107</Measure-Reference>
+    <Heating-Measure>
+      <Heating-Control-Code>2110</Heating-Control-Code>
+    </Heating-Measure>
+    <Lifetime>12</Lifetime>
+    <Annual-Cost-Saving>361.74</Annual-Cost-Saving>
+    <Lifetime-Cost-Saving>4341</Lifetime-Cost-Saving>
+  </Improvement>
+  <Total-Percentage-Of-Total-Exterior-Walls>0</Total-Percentage-Of-Total-Exterior-Walls>
+</ECO-Assessment>

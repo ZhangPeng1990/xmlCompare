@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ECO-1f2_Park Home_LPG room heaters_EPC.xml -->
+<ECO-Assessment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ECO ECO-Report.xsd" xmlns="ECO">
+	<Schema-Version>ECO-1.0</Schema-Version>
+	<Report-Date>2013-10-01</Report-Date>
+	<Property>
+		<EPC-Address>
+			<Address-Line-1>14 Willowbrae Road</Address-Line-1>
+			<Address-Line-2>Clifton</Address-Line-2>
+			<Post-Town>Darlington</Post-Town>
+			<Postcode>DL10 4QE</Postcode>
+		</EPC-Address>
+		<Ofgem-Address>
+			<Building-Number>14</Building-Number>
+			<Street-Name>Willowbrae Road</Street-Name>
+			<Town>Darlington</Town>
+			<Postcode>DL10 4QE</Postcode>
+		</Ofgem-Address>
+		<Property-Type>4</Property-Type>
+		<Built-Form>1</Built-Form>
+		<Tenure>2</Tenure>
+		<Total-Floor-Area>48</Total-Floor-Area>
+		<UPRN-10>0106020000</UPRN-10>
+		<UPRN-12>N/A</UPRN-12>
+		<Country-Code>EAW</Country-Code>
+		<Region-Code>7</Region-Code>
+	</Property>
+	<Pre-Installation-EPC-RRN>0182-2074-9453-9622-0565</Pre-Installation-EPC-RRN>
+	<Software>
+		<Calculation-Software-Name>iQ-Energy</Calculation-Software-Name>
+		<Calculation-Software-Version>v2.1.0</Calculation-Software-Version>
+		<SAP-Version>9.91</SAP-Version>
+		<PCDF-Revision-Number>346</PCDF-Revision-Number>
+		<PCDF-Fuel-Prices>333</PCDF-Fuel-Prices>
+	</Software>
+	<Report-Author>TEST100001</Report-Author>
+	<Improvement>
+		<Sequence>1</Sequence>
+		<Install-Date>2012-09-07</Install-Date>
+		<Improvement-Type>Q9</Improvement-Type>
+		<Ofgem-Measure-Name>EWI_Parkhomes</Ofgem-Measure-Name>
+		<Measure-Reference></Measure-Reference>
+		<Park-Home-Insulation>
+			<Percentage-Floor>100</Percentage-Floor>
+			<Floor-U-Value>0.2</Floor-U-Value>
+			<Percentage-Wall>100</Percentage-Wall>
+			<Wall-U-Value>0.45</Wall-U-Value>
+			<Percentage-Roof>100</Percentage-Roof>
+			<Roof-U-Value>0.16</Roof-U-Value>
+			<Percentage-Overall>100</Percentage-Overall>
+		</Park-Home-Insulation>
+		<Lifetime>30</Lifetime>
+		<Previously-Installed>true</Previously-Installed>
+	</Improvement>
+	<Improvement>
+		<Sequence>2</Sequence>
+		<Install-Date>2013-01-14</Install-Date>
+		<Improvement-Type>O</Improvement-Type>
+		<Ofgem-Measure-Name>WG</Ofgem-Measure-Name>
+		<Measure-Reference></Measure-Reference>
+		<Windows-Doors-Measure>
+			<Selected-Windows>
+				<SAP-Window>
+					<Window-Location>0</Window-Location>
+					<Window-Area>1</Window-Area>
+					<Glazing-Type>5</Glazing-Type>
+					<Window-Type>1</Window-Type>
+					<Orientation>5</Orientation>
+				</SAP-Window>
+				<SAP-Window>
+					<Window-Location>0</Window-Location>
+					<Window-Area>1</Window-Area>
+					<Glazing-Type>5</Glazing-Type>
+					<Window-Type>1</Window-Type>
+					<Orientation>1</Orientation>
+				</SAP-Window>
+			</Selected-Windows>
+			<Window-U-Value>1</Window-U-Value>
+			<Window-g-Value>0.61</Window-g-Value>
+		</Windows-Doors-Measure>
+		<Lifetime>20</Lifetime>
+		<Annual-Cost-Saving>3.84</Annual-Cost-Saving>
+		<Lifetime-Cost-Saving>77</Lifetime-Cost-Saving>
+		<In-Use-Factor>15</In-Use-Factor>
+		<Annual-CO2-Saving>0.018</Annual-CO2-Saving>
+		<Lifetime-CO2-Saving>0.306</Lifetime-CO2-Saving>
+	</Improvement>
+	<Total-Percentage-Of-Total-Exterior-Walls>100</Total-Percentage-Of-Total-Exterior-Walls>
+</ECO-Assessment>

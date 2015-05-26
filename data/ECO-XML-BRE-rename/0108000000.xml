@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--6a  with thatched roofs-->
+<ECO-Assessment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ECO ECO-Report.xsd" xmlns="ECO">
+  <Schema-Version>ECO-1.0</Schema-Version>
+  <Report-Date>2013-09-21</Report-Date>
+  <Property>
+    <EPC-Address>
+      <Address-Line-1>6a Fintry Street</Address-Line-1>
+      <Post-Town>Bath</Post-Town>
+      <Postcode>BA10 0EZ</Postcode>
+    </EPC-Address>
+    <Ofgem-Address>
+      <Building-Number>6a</Building-Number>
+      <Street-Name>Fintry Street</Street-Name>
+      <Town>Bath</Town>
+      <Postcode>BA10 0EZ</Postcode>
+    </Ofgem-Address>
+    <Property-Type>1</Property-Type>
+    <Built-Form>2</Built-Form>
+    <Tenure>1</Tenure>
+    <Total-Floor-Area>155</Total-Floor-Area>
+    <UPRN-10>1234562463</UPRN-10>
+    <UPRN-12>N/A</UPRN-12>
+    <Country-Code>EAW</Country-Code>
+    <Region-Code>12</Region-Code>
+  </Property>
+  <Pre-Installation-EPC-RRN>0523-1045-6232-4529-6920</Pre-Installation-EPC-RRN>
+  <Software>
+    <Calculation-Software-Name>ABC ECO Software</Calculation-Software-Name>
+    <Calculation-Software-Version>1.46.23</Calculation-Software-Version>
+    <SAP-Version>9.91</SAP-Version>
+    <PCDF-Revision-Number>346</PCDF-Revision-Number>
+    <PCDF-Fuel-Prices>340</PCDF-Fuel-Prices>
+  </Software>
+  <Report-Author>Mr Energy Supplier</Report-Author>
+  <Improvement>
+    <Sequence>1</Sequence>
+    <Install-Date-None>Not yet installed</Install-Date-None>
+    <Improvement-Type>O</Improvement-Type>
+    <Ofgem-Measure-Name>WG</Ofgem-Measure-Name>
+    <Measure-Reference>Q531</Measure-Reference>
+    <Windows-Doors-Measure>
+      <Window-Percentage>60</Window-Percentage>
+      <Window-U-Value>1.2</Window-U-Value>
+      <Window-g-Value>0.61</Window-g-Value>
+    </Windows-Doors-Measure>
+    <Lifetime>20</Lifetime>
+    <Annual-Cost-Saving>14.93</Annual-Cost-Saving>
+    <Lifetime-Cost-Saving>299</Lifetime-Cost-Saving>
+    <In-Use-Factor>15</In-Use-Factor>
+    <Annual-CO2-Saving>0.054</Annual-CO2-Saving>
+    <Lifetime-CO2-Saving>0.918</Lifetime-CO2-Saving>
+  </Improvement>
+  <Total-Percentage-Of-Total-Exterior-Walls>0</Total-Percentage-Of-Total-Exterior-Walls>
+</ECO-Assessment>

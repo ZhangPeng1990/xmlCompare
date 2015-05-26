@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ECO-2d_ J-G-A3_EPC.xml -->
+<ECO-Assessment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ECO ECO-Report.xsd" xmlns="ECO">
+	<Schema-Version>ECO-1.0</Schema-Version>
+	<Report-Date>2013-10-01</Report-Date>
+	<Property>
+		<EPC-Address>
+			<Address-Line-1>5 Kingsway</Address-Line-1>
+			<Address-Line-2>South Kensington</Address-Line-2>
+			<Post-Town>Cambridge</Post-Town>
+			<Postcode>CB10 2DQ</Postcode>
+		</EPC-Address>
+		<Ofgem-Address>
+			<Building-Number>5</Building-Number>
+			<Street-Name>Kingsway</Street-Name>
+			<Town>Cambridge</Town>
+			<Postcode>CB10 2DQ</Postcode>
+		</Ofgem-Address>
+		<Property-Type>0</Property-Type>
+		<Built-Form>2</Built-Form>
+		<Tenure>1</Tenure>
+		<Total-Floor-Area>150</Total-Floor-Area>
+		<UPRN-10>0204000001</UPRN-10>
+		<UPRN-12>N/A</UPRN-12>
+		<Country-Code>EAW</Country-Code>
+		<Region-Code>2</Region-Code>
+	</Property>
+	<Pre-Installation-EPC-RRN>0112-2134-4443-9627-3505</Pre-Installation-EPC-RRN>
+	<Software>
+		<Calculation-Software-Name>iQ-Energy</Calculation-Software-Name>
+		<Calculation-Software-Version>v2.1.0</Calculation-Software-Version>
+		<SAP-Version>9.91</SAP-Version>
+		<PCDF-Revision-Number>346</PCDF-Revision-Number>
+		<PCDF-Fuel-Prices>340</PCDF-Fuel-Prices>
+	</Software>
+	<Report-Author>TEST100001</Report-Author>
+	<Improvement>
+		<Sequence>1</Sequence>
+		<Install-Date>2013-07-03</Install-Date>
+		<Improvement-Type>J</Improvement-Type>
+		<Ofgem-Measure-Name>Biomass_boilers</Ofgem-Measure-Name>
+		<Measure-Reference></Measure-Reference>
+		<Heating-Measure>
+			<Main-Heating-Category>2</Main-Heating-Category>
+			<Fuel>6</Fuel>
+			<Heating-System-PCDF-Index>700026</Heating-System-PCDF-Index>
+			<Improved-Heating-Heats-All-Rooms>true</Improved-Heating-Heats-All-Rooms>
+		</Heating-Measure>
+		<Lifetime>20</Lifetime>
+		<Annual-Cost-Saving>595.73</Annual-Cost-Saving>
+		<Lifetime-Cost-Saving>11915</Lifetime-Cost-Saving>
+	</Improvement>
+	<Improvement>
+		<Sequence>2</Sequence>
+		<Install-Date>2013-07-03</Install-Date>
+		<Improvement-Type>G</Improvement-Type>
+		<Ofgem-Measure-Name>Heating_controls</Ofgem-Measure-Name>
+		<Measure-Reference></Measure-Reference>
+		<Heating-Measure>
+			<Heating-Control-Code>2106</Heating-Control-Code>
+		</Heating-Measure>
+		<Lifetime>12</Lifetime>
+		<Annual-Cost-Saving>85.53</Annual-Cost-Saving>
+		<Lifetime-Cost-Saving>1026</Lifetime-Cost-Saving>
+	</Improvement>
+	<Improvement>
+		<Sequence>3</Sequence>
+		<Install-Date>2013-07-04</Install-Date>
+		<Improvement-Type>A3</Improvement-Type>
+		<Ofgem-Measure-Name>RIRI</Ofgem-Measure-Name>
+		<Measure-Reference></Measure-Reference>
+		<Insulation-Measure>
+			<Percentage-Main>100</Percentage-Main>
+			<Percentage-Overall>100</Percentage-Overall>
+			<Room-In-Roof-Insulation>
+				<Room-In-Roof-Details>
+					<Flat-Ceiling-U-Value-1>0.25</Flat-Ceiling-U-Value-1>
+					<Slope-U-Value-1>0.3</Slope-U-Value-1>
+					<Stud-Wall-U-Value-1>0.5</Stud-Wall-U-Value-1>
+					<Gable-Wall-U-Value-1>0.8</Gable-Wall-U-Value-1>
+				</Room-In-Roof-Details>
+			</Room-In-Roof-Insulation>
+		</Insulation-Measure>
+		<Lifetime>42</Lifetime>
+		<Annual-Cost-Saving>112.2</Annual-Cost-Saving>
+		<Lifetime-Cost-Saving>4712</Lifetime-Cost-Saving>
+		<In-Use-Factor>25</In-Use-Factor>
+		<Annual-CO2-Saving>0.02</Annual-CO2-Saving>
+		<Lifetime-CO2-Saving>0.63</Lifetime-CO2-Saving>
+	</Improvement>
+	<Total-Percentage-Of-Total-Exterior-Walls>0</Total-Percentage-Of-Total-Exterior-Walls>
+</ECO-Assessment>
